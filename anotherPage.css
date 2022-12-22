@@ -1,0 +1,26 @@
+.first {
+  background-color: aqua;
+  height: 40px;
+  border: solid lightcoral;
+  margin-block: 30px;
+}
+.second {
+  background-color: orange;
+  display: inline-block;
+  height: 350px;
+  width: 20%;
+
+  margin-right: 20px;
+}
+.third {
+  background-color: grey;
+  display: inline-block;
+  height: 350px;
+  width: 75%;
+}
+.fourth {
+  background-color: pink;
+  margin-block: 30px;
+  height: 40px;
+  border: solid black;
+}

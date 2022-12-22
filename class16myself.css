@@ -1,0 +1,14 @@
+.inline div {
+  background-color: lightblue;
+  display: inline-block;
+}
+
+.centered {
+  background-color: salmon;
+  margin-right: auto;
+  margin-left: auto;
+  width: 80px;
+  padding: 10px;
+  border: solid 20px blue;
+  margin-block: 50px;
+}
