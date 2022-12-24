@@ -10,7 +10,6 @@
   height: 300px; /* 2*sin(60/2)*150  = 150 OR 2*cos(120/2)*150  = 150*/
   margin: 50%;
 }
-
 .circle {
   background-color: #0530ad;
   display: inline-block;
