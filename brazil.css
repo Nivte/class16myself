@@ -6,11 +6,12 @@
   margin: 50%;
 }
 
-.dalton {
+.meuyan {
   background-color: yellow;
   display: inline-block;
   height: 200px;
   width: 400px;
+  margin: 50%;
 
   border-radius: 50%;
 }
@@ -23,3 +24,14 @@
   border-radius: 50%;
   margin-inline: auto;
 }
+@import "compass/css3";
+
+.rhombus {
+  background: #CCC;
+  margin: 100px auto;
+  border: 1px solid #000;
+}
+
+
+
+

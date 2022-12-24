@@ -1,0 +1,36 @@
+.box {
+  background: linear-gradient(to top right, yellow 50%, transparent 0%) top
+      right,
+    linear-gradient(to top left, yellow 50%, transparent 0%) top left,
+    linear-gradient(to bottom right, yellow 49.5%, transparent 0%) bottom right,
+    linear-gradient(to bottom left, yellow 49.5%, transparent 0%) bottom left;
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+
+  width: 260px; /* 2*sin(120/2)*150 = 260 */
+  height: 150px; /* 2*sin(60/2)*150  = 150 OR 2*cos(120/2)*150  = 150*/
+  display: inline-block;
+  margin: 50%;
+}
+
+.circle {
+  background-color: blue;
+  display: inline-block;
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  margin-inline: 32.5%;
+  margin-block-start: 11.5%;
+}
+.text {
+  font-size: 38%;
+  height: 7%;
+  width: 100%;
+  margin: 46.5% auto;
+  color: darkgreen;
+  background-color: white;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  transform: rotate(22deg); /* Equal to rotateZ(45deg) */
+}
