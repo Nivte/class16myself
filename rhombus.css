@@ -6,24 +6,22 @@
     linear-gradient(to bottom left, yellow 49.5%, transparent 0%) bottom left;
   background-size: 50% 50%;
   background-repeat: no-repeat;
-
-  width: 260px; /* 2*sin(120/2)*150 = 260 */
-  height: 150px; /* 2*sin(60/2)*150  = 150 OR 2*cos(120/2)*150  = 150*/
-  display: inline-block;
+  width: 520px; /* 2*sin(120/2)*150 = 260 */
+  height: 300px; /* 2*sin(60/2)*150  = 150 OR 2*cos(120/2)*150  = 150*/
   margin: 50%;
 }
 
 .circle {
-  background-color: blue;
+  background-color: #0530ad;
   display: inline-block;
-  height: 90px;
-  width: 90px;
+  height: 180px;
+  width: 180px;
   border-radius: 50%;
   margin-inline: 32.5%;
   margin-block-start: 11.5%;
 }
 .text {
-  font-size: 38%;
+  font-size: 76%;
   height: 7%;
   width: 100%;
   margin: 46.5% auto;
@@ -31,6 +29,6 @@
   background-color: white;
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: 1.5px;
+  letter-spacing: 3px;
   transform: rotate(22deg); /* Equal to rotateZ(45deg) */
 }
